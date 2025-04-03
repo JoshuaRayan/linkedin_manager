@@ -15,7 +15,7 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json());
 // Enable CORS
 app.use((0, cors_1.default)({
-    origin: 'http://localhost:3000', // Allow frontend access
+    origin: 'https://nodejs-frontend-alpha.vercel.app/', // Allow frontend access
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
