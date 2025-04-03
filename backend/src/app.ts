@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: 'https://nodejs-frontend-alpha.vercel.app/',  // Allow frontend access
+  origin: 'https://nodejs-frontend-alpha.vercel.app',  // Allow frontend access
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
