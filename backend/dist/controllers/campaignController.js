@@ -46,6 +46,7 @@ exports.getCampaignById = getCampaignById;
 const createCampaign = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const campaignData = req.body;
+        console.log("creating",req.body);
         const campaign = new campaignModel_1.default(campaignData);
         const savedCampaign = yield campaign.save();
         res.status(201).json(savedCampaign);
