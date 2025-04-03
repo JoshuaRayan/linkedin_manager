@@ -1,0 +1,62 @@
+.campaign-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .campaign-form-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .campaign-form-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-back {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #666;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .btn-back:hover {
+    color: #333;
+  }
+  
+  .campaign-form-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .campaign-form-body {
+    padding: 1.5rem;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  

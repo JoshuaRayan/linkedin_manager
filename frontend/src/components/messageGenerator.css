@@ -1,0 +1,123 @@
+.message-generator {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .message-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .message-card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .message-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .message-card-body {
+    padding: 1.5rem;
+  }
+  
+  .message-tabs {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5rem;
+  }
+  
+  .message-tab {
+    padding: 0.75rem 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    color: #666;
+  }
+  
+  .message-tab.active {
+    color: #0066cc;
+    font-weight: 500;
+  }
+  
+  .message-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #0066cc;
+  }
+  
+  .message-tab:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+  }
+  
+  .scraped-profile {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .scraped-profile-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .generated-message-container {
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+  }
+  
+  .generated-message-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .generated-message {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .message-text {
+    white-space: pre-line;
+    margin: 0;
+  }
+  
+  .message-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media (max-width: 640px) {
+    .form-row {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+  
+  
